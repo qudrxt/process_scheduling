@@ -1,4 +1,4 @@
-## Process-Scheduling ##
+# Process-Scheduling ##
 
 Implementations of the non-pre-emptive *First come, first served* and pre-emptive *Shortest remaining time next* with a time quantum of three seconds process scheduling algorithms. 
 
