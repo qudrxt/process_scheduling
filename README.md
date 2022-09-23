@@ -26,7 +26,7 @@ For pre-emptive algorithms, if a process is executing within a time quantum that
 * Compile the program of the algorithm you desire to employ
 * Execute the compiled program with one or no option 
 
-## Options ##
+## Option ##
 
 * *sourcefile* - allows the user to specify a path of the file that contains process(es) information to be read and must be directly specified after the invocation of
 the program 
