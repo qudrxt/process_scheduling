@@ -1,6 +1,6 @@
 ## Process-Scheduling ##
 
-Implementations of the non-pre-emptive 'First come, first served' and pre-emptive 'Shortest remaining time next' with a time quantum of three seconds process scheduling algorithms. 
+Implementations of the non-pre-emptive *First come, first served* and pre-emptive *Shortest remaining time next* with a time quantum of three seconds process scheduling algorithms. 
 
 The implemetations read a file of structured input, execute the complied algorithm and write the results to a text file. The results include for each process its wait and turnaround time, and its success in meeting of its deadline value.
 
