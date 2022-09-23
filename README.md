@@ -12,13 +12,13 @@ If no source path has been provided, algorithm will read the contents of *proces
 
 If a source path has been provided, it must be the **only** argument to the file and provided as an **absolute path**. 
 
-Each line of the input value must contain of **space seperated** values for a single process, which include its name, arrival and service time, and its deadline value.
-
-The values that denote these metrics are of **seconds**.
+Each line of the input value must contain of **space seperated** values for a single process, which include its name, arrival and service time, and its deadline value. The values that denote these metrics are of **seconds**.
 
 ## Assumption ##
 
-For pre-emptive algorithms, if a process is executing within a time quantum that has yet to be completed regardless of the arrival of processes of shorter burst times, the process will be alotted the entire quantum. It is only after the quantum finishes where it is determined if the process with the shortest remaining time is be changed - not during the quantum. 
+For pre-emptive algorithms, if a process is executing within a time quantum that has yet to be completed regardless of the arrival of processes of shorter burst times, the process will be alotted the entire quantum. 
+
+It is only after the quantum finishes where it is determined if the process with the shortest remaining time is be changed - not during the quantum. 
 
 ## Usage ##
 
