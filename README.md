@@ -23,7 +23,7 @@ For pre-emptive algorithms, if a process is executing within a time quantum that
 ## Usage ##
 
 * Clone this repository
-* Compile the program of the algorithm you desire to employ
+* Compile the program of the algorithm you desire to employ alongside *process.c* and *utility.c*
 * Execute the compiled program with one or no option 
 
 ## Option ##
