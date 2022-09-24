@@ -18,9 +18,9 @@ Each line of the input value must contain of **space seperated** values for a si
 
 For example, the lines of the process data file *processes.txt* can be as follows -
 
-P1 0 3 5
-P2 1 6 7
-P3 4 4 6
+P1 0 3 5 <br>
+P2 1 6 7 <br>
+P3 4 4 6 <br>
 P4 6 2 2
 
 ## Assumption ##
