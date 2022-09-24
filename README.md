@@ -14,6 +14,15 @@ If a source path has been provided, it must be the **only** argument to the file
 
 Each line of the input value must contain of **space seperated** values for a single process, which include its name, arrival and service time, and its deadline value. The values that denote these metrics are of **seconds**.
 
+**[Process Name]** **[Arrival Time]** **[Service Time]** **[Deadline]**
+
+For example, the lines of the process data file *processes.txt* can be as follows -
+
+P1 0 3 5
+P2 1 6 7
+P3 4 4 6
+P4 6 2 2
+
 ## Assumption ##
 
 For pre-emptive algorithms, if a process is executing within a time quantum that has yet to be completed regardless of the arrival of processes of shorter burst times, the process will be alotted the entire quantum. 
